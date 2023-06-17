@@ -1,63 +1,27 @@
-# Nuxt 3 Minimal Starter
+# MissMarica
+Aim to iOS/Android and Web Misskey Client for me.
+作者が自分のためにつくるMisskey Clientです。
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 望むこと
+- Misskey Latast の機能に追従する
+- 好みの挙動にする
+- 可能な限りフルスクラッチに置き換えていく
+- Push通知
 
-## Setup
+## 望まないこと
+- 今後増える
 
-Make sure to install the dependencies:
+## ありえる展開
+- Misskey v12などの古いクライアント対応
+- Misskey Fork対応
 
-```bash
-# npm
-npm install
+## Start to Contribute
+packagemanager: pnpm
+node version: 20.3.0
 
-# pnpm
+```
 pnpm install
-
-# yarn
-yarn install
 ```
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
