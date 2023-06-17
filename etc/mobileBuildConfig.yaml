@@ -1,0 +1,16 @@
+# Android/iOSのconfigファイルをごにゃってくれる
+# https://trapeze.dev/
+
+platforms:
+  android:
+    incrementVersionCode: true
+    manifest:
+      - file: AndroidManifest.xml
+        target: manifest/application
+        inject:
+          <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  ios:
+    targets:
+      App:
+        version: 16.4
+        incrementBuild: true

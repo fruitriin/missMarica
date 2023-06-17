@@ -11,6 +11,5 @@ export default defineNuxtConfig({
     client: true,
     server: true,
   },
-  telemetry: false ,
-
-})
+  telemetry: false,
+});
